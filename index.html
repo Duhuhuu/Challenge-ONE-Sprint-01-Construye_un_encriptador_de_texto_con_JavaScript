@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Encriptador de texto</title>
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body class="bodyy">
+  
+  <div class="msgTxt">
+    <div class="imgLogo"> 
+      <img class="logo" src="./recursos/anime_png/astolfo.png"> 
+    </div>
+  
+    <div class="txtLeyenda" >
+        <img class="exclama" src="./recursos/Frame 1.svg">
+    </div>
+
+    <textarea class="input-texto_texto" type="text" id="input-texto" placeholder="Ingresa tu Mensaje!!!" cols="20" rows="9"> </textarea>
+        
+    <div class="bttons">
+          <button class="btn1" type="button" id="btn-encriptar" onclick="encriptar()"> Encriptar!</button>
+        <button class="btn2" type="button" id="btn-desencriptar" onclick="desencriptar()"> Desencriptar! </button>
+        
+    </div>
+        
+            
+
+    
+    <div class="rectangulo ">  
+      <img class="munieco" src="./recursos/anime_png/whadafk.png">
+    </div>
+  <div class="mensajes" >  
+       
+    <h2 id="msgtxt" class="msgtxt">Mensaje encriptado!!</h2>
+    <input class="text-input-salida" type="text" id="msg" placeholder="Mensaje Encriptado!!" cols="30" rows="10">
+    <h2 id="msgDesen" class="msgtxt">Mensaje Desencriptado!!</h2>
+    <input class="textEncryp" type="text" id="msgDesencrip" placeholder="Mensaje Desencriptado!!">
+    <button class="btn3" type="button" value="copiar" id="btn-copy" onclick="copyText()""> Copiar!!</button>
+
+  </div>
+</div>  
+  <script src="functions.js"></script>
+
+  
+</body>
+</html>
